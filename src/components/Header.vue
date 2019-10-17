@@ -1,11 +1,13 @@
 <template>
-<div>
-  <div class="hello">
+<div class="header">
+  <div class="icon"></div>
+  <div class="title">
     <h1>Harriet Horobin-Worley</h1>
-  </div>
-  <div class="intro">
+    <div class="intro">
     <h2>Creative Software Developer and Artist</h2>
   </div>
+  </div>
+  
 </div>
 </template>
 
@@ -20,18 +22,27 @@ export default {
 
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style scoped>
-h3 {
-  margin: 40px 0 0;
+h1{
+  margin: 0px;
 }
-ul {
-  list-style-type: none;
-  padding: 0;
+h2{
+  margin: 5px 0 5px 0;
 }
-li {
-  display: inline-block;
-  margin: 0 10px;
+.header {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
 }
-a {
-  color: #42b983;
+.title{
+  display: flex;
+  flex-direction: column;
+  margin-left: 10px;
+}
+.icon{
+  width: 100px;
+  height: 100px;
+  background: lightgray;
+  border-radius: 50%;
+  align-self: center;
 }
 </style>
