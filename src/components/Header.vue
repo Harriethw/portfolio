@@ -7,7 +7,6 @@
     <h2>Creative Software Developer and Artist</h2>
   </div>
   </div>
-  
 </div>
 </template>
 

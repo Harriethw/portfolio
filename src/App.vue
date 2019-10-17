@@ -2,6 +2,8 @@
   <div id="app">
     <Header />
     <p><router-link to="/CV">Go to CV</router-link></p>
+    <p><router-link to="/Art">Go to Art</router-link></p>
+    <p><router-link to="/Contact">Go to Contact</router-link></p>
     <router-view />
   </div>
 </template>
