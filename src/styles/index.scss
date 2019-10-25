@@ -1,12 +1,25 @@
-@import url('https://fonts.googleapis.com/css?family=Comfortaa&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Comfortaa&display=swap&effect=outline');
 
-$blue: #007bff;
-$red: rgb(250, 23, 53);
+$orange: #ff9751;
+$pink: rgb(235, 141, 214);
 
 * {
     font-family: 'Comfortaa', cursive;
 }
 
+.icon{
+    width: 100px;
+    height: 100px;
+    background: $pink;
+    border: 2px $pink solid;
+    border-radius: 50%;
+    align-self: center;
+
+    &:hover{
+        background: none;
+        border: 2px $pink dashed; 
+    }
+  }
 
 .nav{
     display: flex;
@@ -23,14 +36,27 @@ $red: rgb(250, 23, 53);
 
     .navIcon{
         display: flex;
-        min-width: 25vw;
-        min-height: 100px;
-        background: linear-gradient(to bottom right, #fff 0%, #fff 49.5%, $blue  50%, $blue 100%);
         margin: 1vw;
+        width: 0;
+        height: 0;
+        border-style: solid;
+        width: 20vw;
+        height: 15vh;
+        border-color: $orange;
+        padding: 20px;
+        border-radius: 2em;
+        background: $orange;
     
         &:hover{
-            background: linear-gradient(to top left, #fff 0%, #fff 49.5%, $blue  50%, $blue 100%);
+            border-color: $orange;
+            border-style: dashed;
+            background: none;
         }
     }
 
+}
+
+.mainContent{
+    display: flex;
+    justify-content: center;
 }

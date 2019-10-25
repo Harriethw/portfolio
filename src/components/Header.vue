@@ -41,11 +41,5 @@ h2{
   flex-direction: column;
   margin-left: 20px;
 }
-.icon{
-  width: 100px;
-  height: 100px;
-  background: rgb(250, 23, 53);
-  border-radius: 50%;
-  align-self: center;
-}
+
 </style>
