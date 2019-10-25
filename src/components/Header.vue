@@ -23,24 +23,28 @@ export default {
 <style scoped>
 h1{
   margin: 0px;
+  
 }
 h2{
   margin: 5px 0 5px 0;
+  color: darkgrey;
 }
 .header {
   display: flex;
   flex-direction: row;
   justify-content: center;
+  align-items: center;
+  margin-bottom: 30px;
 }
 .title{
   display: flex;
   flex-direction: column;
-  margin-left: 10px;
+  margin-left: 20px;
 }
 .icon{
   width: 100px;
   height: 100px;
-  background: lightgray;
+  background: rgb(57, 54, 223);
   border-radius: 50%;
   align-self: center;
 }
