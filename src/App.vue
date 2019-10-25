@@ -3,17 +3,22 @@
     <Header />
     <div class="nav">
       <p>
-        <router-link to="/CV">CV</router-link>
+        <router-link to="/CV">
+        <span class="cvIcon">CV</span>
+        </router-link>
       </p>
       <p>
-        <router-link to="/Art">Art</router-link>
+        <router-link to="/Art">
+        <span class="artIcon">Art</span>
+        </router-link>
       </p>
       <p>
-        <router-link to="/Contact">Contact</router-link>
-        <span class="contactIcon"></span>
+        <router-link to="/Contact">
+        <span class="contactIcon">Contact</span>
+        </router-link>
       </p>
-      <router-view />
     </div>
+    <div class="mainContent"><router-view /></div>
   </div>
 </template>
 

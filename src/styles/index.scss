@@ -1,5 +1,44 @@
 @import url('https://fonts.googleapis.com/css?family=Comfortaa&display=swap');
 
+$blue: #007bff;
+
 * {
     font-family: 'Comfortaa', cursive;
+}
+
+
+.nav{
+    display: flex;
+    justify-content: space-around;
+
+    a{
+        color: white;
+        font-weight: 700;
+        font-size: 1.5em;
+        text-decoration: none;
+    }
+
+    .contactIcon{
+        display: flex;
+        min-width: 20vw;
+        min-height: 200px;
+        background: linear-gradient(to top left, #fff 0%, #fff 50%, $blue  50%, $blue 100%);
+        padding: 10px;
+    }
+
+    .cvIcon{
+        display: flex;
+        min-width: 20vw;
+        min-height: 200px;
+        background: linear-gradient(to top left, #fff 0%, #fff 50%, $blue  50%, $blue 100%);
+        padding: 10px;
+    }
+
+    .artIcon{
+        display: flex;
+        min-width: 20vw;
+        min-height: 200px;
+        background: linear-gradient(to top left, #fff 0%, #fff 50%, $blue  50%, $blue 100%);
+        padding: 10px;
+    }
 }

@@ -44,7 +44,7 @@ h2{
 .icon{
   width: 100px;
   height: 100px;
-  background: rgb(57, 54, 223);
+  background: rgb(250, 23, 53);
   border-radius: 50%;
   align-self: center;
 }
