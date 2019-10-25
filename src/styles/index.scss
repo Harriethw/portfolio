@@ -1,6 +1,7 @@
 @import url('https://fonts.googleapis.com/css?family=Comfortaa&display=swap');
 
 $blue: #007bff;
+$red: rgb(250, 23, 53);
 
 * {
     font-family: 'Comfortaa', cursive;
@@ -9,36 +10,27 @@ $blue: #007bff;
 
 .nav{
     display: flex;
-    justify-content: space-around;
+    justify-content: center;
+
 
     a{
-        color: white;
+        color: black;
         font-weight: 700;
         font-size: 1.5em;
         text-decoration: none;
+
     }
 
-    .contactIcon{
+    .navIcon{
         display: flex;
-        min-width: 20vw;
-        min-height: 200px;
-        background: linear-gradient(to top left, #fff 0%, #fff 50%, $blue  50%, $blue 100%);
-        padding: 10px;
+        min-width: 25vw;
+        min-height: 100px;
+        background: linear-gradient(to bottom right, #fff 0%, #fff 49.5%, $blue  50%, $blue 100%);
+        margin: 1vw;
+    
+        &:hover{
+            background: linear-gradient(to top left, #fff 0%, #fff 49.5%, $blue  50%, $blue 100%);
+        }
     }
 
-    .cvIcon{
-        display: flex;
-        min-width: 20vw;
-        min-height: 200px;
-        background: linear-gradient(to top left, #fff 0%, #fff 50%, $blue  50%, $blue 100%);
-        padding: 10px;
-    }
-
-    .artIcon{
-        display: flex;
-        min-width: 20vw;
-        min-height: 200px;
-        background: linear-gradient(to top left, #fff 0%, #fff 50%, $blue  50%, $blue 100%);
-        padding: 10px;
-    }
 }
