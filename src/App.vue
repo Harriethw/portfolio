@@ -3,19 +3,18 @@
     <Header />
     <div class="nav">
       <p>
-        <router-link to="/CV">
-        <span class="navIcon">CV</span>
-  
+        <router-link class="nav-icon" to="/CV">
+        <span >CV</span>
         </router-link>
       </p>
       <p>
-        <router-link to="/Art">
-        <span class="navIcon">Art</span>
+        <router-link class="nav-icon" to="/Art">
+        <span>Art</span>
         </router-link>
       </p>
       <p>
-        <router-link to="/Contact">
-        <span class="navIcon">Contact</span>
+        <router-link class="nav-icon" to="/Contact">
+        <span>Contact</span>
         </router-link>
       </p>
     </div>
@@ -34,11 +33,3 @@ export default {
 };
 </script>
 
-<style>
-#app {
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  color: #2c3e50;
-  margin-top: 60px;
-}
-</style>

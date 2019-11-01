@@ -3,6 +3,14 @@
 $orange: #ff9751;
 $pink: rgb(235, 141, 214);
 
+#app {
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    color: #2c3e50;
+    margin-top: 60px;
+    padding: 0px 60px;
+}
+
 * {
     font-family: 'Comfortaa', cursive;
 }
@@ -34,7 +42,7 @@ $pink: rgb(235, 141, 214);
 
     }
 
-    .navIcon{
+    .nav-icon{
         display: flex;
         margin: 1vw;
         width: 0;
