@@ -2,6 +2,7 @@
 
 $orange: #ff9751;
 $pink: rgb(235, 141, 214);
+$blue: rgb(51, 153, 255);
 
 #app {
     -webkit-font-smoothing: antialiased;
@@ -9,11 +10,17 @@ $pink: rgb(235, 141, 214);
     color: #2c3e50;
     margin-top: 60px;
     padding: 0px 60px;
+    line-height: 1.6em;
+    display: flex;
+    flex-direction: column;
+    width: 100vw;
 }
 
 * {
     font-family: 'Comfortaa', cursive;
 }
+
+
 
 .icon{
     width: 100px;
@@ -67,4 +74,40 @@ $pink: rgb(235, 141, 214);
 .mainContent{
     display: flex;
     justify-content: center;
+
+    .title{
+        text-align: center;
+        margin-bottom: 50px;
+    }
+
+    a{
+        color: $blue;
+    }
+}
+
+.contact-body{
+    display: flex;
+    flex-direction: row;
+
+    .contact-info {
+        width: 50%;
+        font-weight: bold;
+        font-size: 1.3em;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        padding: 20px;
+        border: 2px $pink dashed;
+    }
+
+    .contact-photo-wrapper {
+        display: flex;
+        justify-content: center;
+        width: 50%;
+
+        .contact-photo {
+            width: 70%
+        }
+    }
+   
 }
