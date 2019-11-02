@@ -1,0 +1,17 @@
+{
+    "title": {
+        "class": "title"
+    },
+    "medium": {
+        "class": "medium"
+    },
+    "date": {
+        "class": "date"
+    },
+    "shortDescription": {
+        "class": "shortDescription"
+    },
+    "extraDescription": {
+        "class": "extraDescription"
+    }
+}
