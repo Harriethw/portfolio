@@ -19,6 +19,7 @@ export default {
       <h1>A selection of my work</h1>
     </div>
     <div v-for="(art, index) in artData" :key="index">
+      <img :src="require('@/assets/' + art.img)" />
       <div
         v-for="(key, index) in artSchema"
         :key="index"

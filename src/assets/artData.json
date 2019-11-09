@@ -3,19 +3,22 @@
     "medium": "Oculus Go VR",
     "date": "September 2019",
     "shortDescription": "Sometimes it’s really difficult to get out of bed in the morning… <i>Escape Bed</i> is part point-and-click adventure, part child-like exploration of the liminal space between dreaming and awake. Explore, prod and poke this colourful little vignette until you are ready to throw back the duvet and begin your day.",
-    "extraDescription": "Made in Unity for the Oculus Go, this is my second solo VR piece. I learnt a great deal about 3D modelling and crafting an experience without relying (too much) on words to tell a story."
+    "extraDescription": "Made in Unity for the Oculus Go, this is my second solo VR piece. I learnt a great deal about 3D modelling and crafting an experience without relying (too much) on words to tell a story.",
+    "img": "escapeBed.png"
 },
 {
     "title": "Day Off",
     "medium": "Web",
     "date": "April 2019",
     "shortDescription": "An interactive picture book about taking the day off",
-    "extraDescription": "Made in Unity."
+    "extraDescription": "Made in Unity.",
+    "img": "logo.png"
 },
 {
     "title": "Random Princess Generator",
     "medium": "Web",
     "date": "April 2018",
     "shortDescription": "A tool for generating Princesses and their back stories. Anyone can be a Princess. ",
-    "extraDescription": "Made in Unity."
+    "extraDescription": "Made in Unity.",
+    "img": "logo.png"
 }]

@@ -13,5 +13,8 @@
     },
     "extraDescription": {
         "class": "extraDescription"
+    },
+    "img": {
+        "class": "image-art"
     }
 }
