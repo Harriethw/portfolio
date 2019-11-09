@@ -7,7 +7,7 @@ export default {
 <template>
   <div class="CV-body">
     <div>
-      <h1>Placeholder for CV</h1>
+      <h1>Curriculum Vitae</h1>
     </div>
     <p>
       <span

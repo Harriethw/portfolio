@@ -1,6 +1,6 @@
 <template>
 <div class="header">
-  <div class="icon"></div>
+  <router-link to="/"><div class="icon"></div></router-link>
   <div class="title">
     <h1>Harriet Horobin-Worley</h1>
     <div class="intro">

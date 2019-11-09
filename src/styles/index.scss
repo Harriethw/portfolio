@@ -13,14 +13,12 @@ $blue: rgb(51, 153, 255);
     line-height: 1.6em;
     display: flex;
     flex-direction: column;
-    width: 100vw;
+    width: 90vw;
 }
 
 * {
     font-family: 'Comfortaa', cursive;
 }
-
-
 
 .icon{
     width: 100px;
@@ -49,25 +47,36 @@ $blue: rgb(51, 153, 255);
 
     }
 
-    .nav-icon{
+    .nav-icon {
         display: flex;
         margin: 1vw;
         width: 0;
-        height: 0;
-        border-style: solid;
-        width: 20vw;
-        height: 15vh;
+        height: 0; 
+        width: 10vw;
+        height: 5vh;
         border-color: $orange;
         padding: 20px;
         border-radius: 2em;
-        background: $orange;
+        border-style: dashed;
+        background: none;
+        transition: width 1s;
     
         &:hover{
+            border-style: solid;
+            background: $orange;
+            color: white;
+        }
+
+        &.router-link-active{
+            width: 20vw;
             border-color: $orange;
-            border-style: dashed;
-            background: none;
+            border-style: solid;
+            background: $orange;
+            color: white;
         }
     }
+
+    
 
 }
 
@@ -84,6 +93,18 @@ $blue: rgb(51, 153, 255);
         color: $blue;
     }
 }
+
+.slide-fade-enter-active {
+    transition: all .5s ease;
+  }
+  .slide-fade-leave-active {
+    transition: all .1s cubic-bezier(1.0, 0.5, 0.8, 1.0);
+  }
+  .slide-fade-enter
+  /* .slide-fade-leave-active below version 2.1.8 */ {
+    transform: translateX(10px);
+    opacity: 0;
+  }
 
 .contact-body{
     display: flex;

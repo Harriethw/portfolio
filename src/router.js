@@ -8,7 +8,11 @@ Vue.use(Router);
 
 const router = new Router({
     mode: 'history',
-    routes:[
+    routes: [
+        {
+            path: '/',
+            redirect: '/Art',
+        },
         {
             path: '/CV',
             name: 'CV',

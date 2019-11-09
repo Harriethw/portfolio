@@ -13,9 +13,10 @@ export default {
 </script>
 
 <template>
+
   <div class="art-body">
     <div class="title">
-      <h1>Art</h1>
+      <h1>A selection of my work</h1>
     </div>
     <div v-for="(art, index) in artData" :key="index">
       <div
@@ -26,5 +27,6 @@ export default {
       ></div>
     </div>
   </div>
+
 </template>
 
