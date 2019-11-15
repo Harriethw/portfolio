@@ -7,7 +7,7 @@ export default {
 <template>
 <div>
   <div class="title">
-      <h1>Contact Me</h1>
+      <h1>Drop me a line</h1>
     </div>
   <div class="contact-body">
     
@@ -15,8 +15,8 @@ export default {
       <img class="contact-photo" src="@/assets/portrait.png" alt="portrait" />
     </div>
     <div class="contact-info">
-      <a href="mailto:harriethw@gmail.com">HarrietHW@gmail.com</a>
-      <a href="https://twitter.com/HarrietHW">@HarrietHW</a>
+      <a href="mailto:harriethw@gmail.com"><span class="contact-link">HarrietHW@gmail.com</span></a>
+      <a href="https://twitter.com/HarrietHW"><span class="contact-link">@HarrietHW</span></a>
     </div>
   </div>
 </div>
