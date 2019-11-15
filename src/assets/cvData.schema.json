@@ -1,0 +1,20 @@
+{
+    "company": {
+        "class": "company"
+    },
+    "role": {
+        "class": "role"
+    },
+    "location": {
+        "class": "location"
+    },
+    "date": {
+        "class": "date"
+    },
+    "description": {
+        "class": "description"
+    },
+    "list": {
+        "class": "list"
+    }
+}

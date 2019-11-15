@@ -1,0 +1,47 @@
+[
+    {
+        "company": "ThoughtWorks",
+        "role": "Software Developer",
+        "location": "London, UK",
+        "date": "June 2019 - present",
+        "description": "At this leading software consultancy I'm honing my craft, applying my commitment to quality and best practise to TDD, pair programming and CI/CD. I've worked on a range of full-stack technologies, including Java, Spring, Firebase and Vue."
+    },
+    {
+        "company": "American Express",
+        "role": "Junior Software Engineer",
+        "location": "Brighton, Sussex, UK",
+        "date": "July 2018 - June 2019",
+        "description": "I worked on an innovative new initiative to improve data configuration for a set of microservices. Working on both front and back-end development (Java and Javascript), my role involved liaising with product owners, senior engineers and external stakeholders."
+    },
+    {
+        "company": "Uken Games",
+        "role": "Community Representative",
+        "location": "Toronto, ON, Canada",
+        "date": "April 2017 - present",
+        "description": "At this leading Canadian mobile games company I worked to provide the best possible experience for our users, and to connect the developers and designers with player feedback. Writing FAQs, looking at analytics and investigating bugs, I had a close understanding of our products and the opportunities and challenges of mobile development."
+    },
+    {
+        "company": "Penguin Random House Canada",
+        "role": "Consumer Marketing Coordinator",
+        "location": "Toronto, ON, Canada",
+        "date": "July 2016 - April 2017",
+        "description": "I worked on brand direction for this new kind of bookstore, produced marketing materials and helped to run the shop itself.",
+        "list": "  <ul><li>  <p>Writing copy for blogs, newsletters and social campaigns.</p></li><li>  <p>Overseeing operations and ensuring they run smoothly.</p></li>      </ul>"
+    },
+    {
+        "company": "Toronto International Film Festival",
+        "role": "Facilitator, POPxTIFF",
+        "location": "Toronto, ON, Canada ",
+        "date": "June 2016 - Aug 2016",
+        "description": "I worked with the Exhibitions to team to ensure the smooth running of this innovative and challenging project, an exhibition of the world&rsquo;s most exciting virtual reality experiences. I am trained in the use of all major VR headsets.",
+        "list": "<ul><li>  <p>Problem-solving and communicating instructions and narrative information with hundreds of visitors a day.</p></li><li>  <p>Liaising with artists to ensure installations ran correctly.</p></li>      </ul>"
+    },
+    {
+        "company": "Penguin Random House UK",
+        "role": "Assistant Editor, Digital",
+        "location": "London, UK",
+        "date": "April 2012 - May 2016",
+        "description": "As part of the digital publishing team, I handled a diverse portfolio of projects across fiction and interactive narratives. I produced ebooks, apps and websites. Projects included the web-based book <a  href='http://strata.lexrecords.com/'>STRATA</a>, a global arts and tech campaign for Stephen Fry called <a href='http://yourfry.com/'>YourFry</a> and the <a href='http://www.summerofpenguin.com'>Summer of Penguin</a> advertising campaign.",
+        "list": "<ul><li>  <p>Writing copy for blogs, newsletters and social campaigns.</p></li><li>  <p>Managing content creation between authors and suppliers.</p></li><li>  <p>Copyediting and proofreading manuscripts.</p></li><li>  <p>Commissioning authors and artists.</p></li><li>  <p>Producing and overseeing video and audio production.</p></li></ul>"
+    }
+]
