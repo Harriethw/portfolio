@@ -1,7 +1,7 @@
 <template>
   <div class="CV-body">
     <div class="cv-sidebar">
-        <div v-if="skillsShow" class="skills-list">
+      <div v-if="skillsShow" class="skills-list">
           <div class="skills-title">Skills</div>
           <ul>
             <li>C#, Java, Javascript</li>
@@ -13,8 +13,8 @@
             <li>Unity</li>
             <li>Prototyping, testing and</li>
             <li>user research</li>
-            <li>Copywriting, editing </li>
-            <li> proofreading</li>
+            <li>Copywriting, editing</li>
+            <li>proofreading</li>
 
             <br />
             <li>Maya</li>
@@ -22,7 +22,7 @@
             <li>iMovie</li>
             <li>Audacity</li>
           </ul>
-        </div>
+      </div>
       <span @click="skillsShow = !skillsShow" class="title">+</span>
     </div>
     <div class="cv-content">
