@@ -1,6 +1,6 @@
 {
     "title": {
-        "class": "title"
+        "class": "work-title"
     },
     "medium": {
         "class": "medium"
@@ -15,6 +15,9 @@
         "class": "extraDescription"
     },
     "img": {
-        "class": "image-art"
+        "class": "art-image"
+    },
+    "work-link": {
+        "class": "work-link"
     }
 }

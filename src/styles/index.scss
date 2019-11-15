@@ -15,6 +15,9 @@ $blue: rgb(51, 153, 255);
     flex-direction: column;
     width: 90vw;
 }
+h1 {
+    font-size: 2em;
+}
 
 * {
     font-family: 'Comfortaa', cursive;
@@ -130,5 +133,47 @@ $blue: rgb(51, 153, 255);
             width: 70%
         }
     }
-   
+}
+
+.art-body{
+
+    div {
+    padding-bottom: 10px;
+    }
+
+    .work {
+        border-bottom: 2px dashed $pink;
+        margin-bottom: 20px;
+        display: flex;
+        flex-direction: column;
+        width: 90vw;
+    }
+
+    .work-text {
+        flex: 1 1 0px;
+    }
+
+    .work-image{
+        max-width: 100%;
+        flex: 1 1 0px;
+        display: flex;
+        justify-content: center;
+    }
+
+    .work-title{
+        font-weight: bold;
+        text-align: left;
+        font-size: 2em;
+        margin: 20px 0px 20px 0px;
+        border-bottom: 2px dashed $pink;
+    }
+
+    .medium{
+        font-weight: bold;
+    }
+
+    .date {
+        font-style: italic;
+    }
+
 }

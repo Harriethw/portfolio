@@ -13,21 +13,24 @@ export default {
 </script>
 
 <template>
-
   <div class="art-body">
     <div class="title">
       <h1>A selection of my work</h1>
     </div>
-    <div v-for="(art, index) in artData" :key="index">
-      <img :src="require('@/assets/' + art.img)" />
-      <div
-        v-for="(key, index) in artSchema"
-        :key="index"
-        v-html="art[key.class]"
-        v-bind:class="key.class"
-      ></div>
+    <div v-for="(art, index) in artData" :key="index" class="work">
+      <div class="work-image">
+        <img :src="require('@/assets/' + art.img)" class="art-image" />
+      </div>
+      <div class="work-text">
+        <div
+          v-for="(key, index) in artSchema"
+          :key="index"
+          v-html="art[key.class]"
+          v-bind:class="key.class"
+        ></div>
+        <div v-if="art['link']"><a :href="art['link']">{{ art['link'] }}</a></div>
+      </div>
     </div>
   </div>
-
 </template>
 
