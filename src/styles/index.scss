@@ -184,6 +184,51 @@ body {
 }
 
 .CV-body {
+    display: flex;
+
+    .title {
+        writing-mode: vertical-rl;
+        text-orientation: mixed;
+        font-size: 1.3em;
+        font-weight: bold;
+        margin-bottom: 5px;
+        background: $pink;
+        color: white;
+        width: 30px;
+        height: 20px;
+        text-align: start;
+        padding: 10px 5px 0px 5px;
+        border-radius: 2em;
+    }
+
+    .skills-list {
+        border: 2px dashed $pink;
+        padding: 10px;
+        height: 400pt;
+        margin-right: 5px;
+    }
+
+    .skills-title {
+        color: $pink;
+        font-weight: bold;
+        font-size: 1.3em;
+    }
+
+    .cv-content {
+        flex: 4;
+        margin-left: 20px;
+    }
+
+    .cv-sidebar {
+        // display: none;
+        display: flex;
+        flex-direction: row;
+        padding-right: 20px;
+        ul {
+            list-style-type: none;
+            padding: 0px;
+        }
+    }
 
     .job-text {
         margin-bottom: 20px;
