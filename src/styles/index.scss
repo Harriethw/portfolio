@@ -104,7 +104,15 @@ body {
   /* .slide-fade-leave-active below version 2.1.8 */ {
     transform: translateX(10px);
     opacity: 0;
+}
+
+.skills-enter-active, .skills-leave-active  {
+    overflow: hidden;
+    text-overflow: clip;
+    transition: width 0.5s ease-in-out;
   }
+
+  
 
 .contact-body{
     display: flex;
@@ -214,6 +222,18 @@ body {
         font-size: 1.3em;
     }
 
+    .skills-button{
+        cursor: pointer;
+        transform: rotate(-90deg);
+        transition: 0.15s ease-in;
+
+        &.skillsShow {
+            
+            transform: rotate(90deg);
+        }
+            
+    }
+
     .cv-content {
         flex: 4;
         margin-left: 20px;
@@ -285,6 +305,8 @@ body {
         }
     }
 }
+
+
 
 #app {
         padding: 0px 60px;
