@@ -4,7 +4,10 @@ $orange: #ff9751;
 $pink: rgb(235, 141, 214);
 $blue: rgb(51, 153, 255);
 
-#app {
+ul {
+    list-style-type: none;
+}
+.app-wrapper {
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
     color: #2c3e50;
@@ -14,7 +17,6 @@ $blue: rgb(51, 153, 255);
     display: flex;
     flex-direction: column;
     width: 90vw;
-    overflow: hidden;
 }
 h1 {
     font-size: 2em;
@@ -245,7 +247,6 @@ body {
         flex-direction: row;
         padding-right: 20px;
         ul {
-            list-style-type: none;
             padding: 0px;
         }
     }
@@ -268,6 +269,20 @@ body {
         .date {
             margin-bottom: 10px;
         }
+    }
+}
+
+.footer {
+    display: flex;
+    background-color: $orange;
+    width: 100vw;
+    margin-top: 200px;
+    height: 300px;
+
+    .footer-text{
+        padding: 40px;
+        color: white;
+        font-weight: bold;
     }
 }
 
@@ -308,7 +323,7 @@ body {
 
 
 
-#app {
+.app-wrapper {
         padding: 0px 60px;
     }
 
