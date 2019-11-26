@@ -209,28 +209,15 @@ body {
     }
 
     .skills-list {
-        border: 2px dashed $pink;
-        padding: 10px;
-        height: 400pt;
-        margin-right: 5px;
+        display: none;
     }
 
     .skills-title {
-        color: $pink;
-        font-weight: bold;
-        font-size: 1.3em;
+        display: none;
     }
 
     .skills-button{
-        cursor: pointer;
-        transform: rotate(-90deg);
-        transition: 0.15s ease-in;
-
-        &.skillsShow {
-            
-            transform: rotate(90deg);
-        }
-            
+        display: none;           
     }
 
     .cv-content {
@@ -326,8 +313,6 @@ body {
     }
 }
 
-
-
 .app-wrapper {
         padding: 0px 60px;
     }
@@ -346,4 +331,34 @@ body {
     }
 }
 
+.CV-body {
+.skills-list {
+    display: inline;
+    border: 2px dashed $pink;
+    padding: 10px;
+    height: 400pt;
+    margin-right: 5px;
 }
+
+.skills-title {
+    display: inline;
+    color: $pink;
+    font-weight: bold;
+    font-size: 1.3em;
+}
+
+.skills-button{
+    display: inline;
+    cursor: pointer;
+    transform: rotate(-90deg);
+    transition: 0.15s ease-in;
+
+    &.skillsShow {
+        
+        transform: rotate(90deg);
+    }     
+}
+}
+
+}
+
