@@ -1,8 +1,14 @@
 <script>
 import artData from "@/assets/artData.json";
 import artSchema from "@/assets/artData.schema.json";
+import { Carousel, Slide } from "vue-carousel";
+
 export default {
   name: "Art",
+  components: {
+    Carousel,
+    Slide
+  },
   data: function() {
     return {
       artData: artData,
@@ -17,10 +23,15 @@ export default {
     <div class="title">
       <h1>A selection of my work</h1>
     </div>
-    <div class="art-intro">I make interactive art, tools and apps that aim to delight and inspire people. If you'd like to collaborate on a project please get in touch.</div>
+    <div
+      class="art-intro"
+    >I make interactive art, tools and apps that aim to delight and inspire people. If you'd like to collaborate on a project please get in touch.</div>
     <div v-for="(art, index) in artData" :key="index" class="work">
       <div class="work-image">
-        <img :src="require('@/assets/' + art.img)" class="art-image" />
+        <carousel :perPage="1" paginationActiveColor="#eb8dd6" paginationColor="#ffb6c1">
+          <slide><img :src="require('@/assets/' + art.img)" class="art-image" /></slide>
+          <slide><img :src="require('@/assets/' + art.img)" class="art-image" /></slide>
+        </carousel>
       </div>
       <div class="work-text">
         <div
@@ -29,7 +40,9 @@ export default {
           v-html="art[key.class]"
           v-bind:class="key.class"
         ></div>
-        <div v-if="art['link']"><a :href="art['link']">{{ art['link'] }}</a></div>
+        <div v-if="art['link']">
+          <a :href="art['link']">{{ art['link'] }}</a>
+        </div>
       </div>
     </div>
   </div>
