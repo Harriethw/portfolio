@@ -142,6 +142,8 @@ body {
     justify-content: space-evenly;
     padding: 20px;
     border: 2px $pink dashed;
+    border-radius: 2em;
+    margin-top: 10px;
   }
 
   .contact-photo-wrapper {
@@ -159,8 +161,12 @@ body {
     padding-bottom: 10px;
   }
 
+  .art-intro {
+      text-align: center;
+  }
+
   .work {
-    border-bottom: 2px dashed $pink;
+    border-bottom: 2px dashed $lightPink;
     margin-bottom: 20px;
     display: flex;
     flex-direction: column;
@@ -171,15 +177,24 @@ body {
     flex: 1 1 0px;
   }
 
-  .work-image {
-    max-width: 100%;
-    flex: 1 1 0px;
+  //   .work-image {
+  //     max-width: 100%;
+  //     flex: 1 1 0px;
+  //     display: flex;
+  //     justify-content: center;
+  //   }
+
+  .VueCarousel-slide {
     display: flex;
     justify-content: center;
   }
 
+  .VueCarousel-dot, .VueCarousel-dot-container {
+      margin-top: 0 !important;
+  }
+
   img {
-      max-width: 80vw;
+    max-width: 80vw;
   }
 
   .work-title {
@@ -187,7 +202,11 @@ body {
     text-align: left;
     font-size: 2em;
     margin: 20px 0px 20px 0px;
-    border-bottom: 2px dashed $pink;
+    background-color: $lightPink;
+    padding: 15px;
+    border-radius: 2em;
+    color: white;
+    // display:inline-block;
   }
 
   .medium {
@@ -331,6 +350,7 @@ body {
       font-size: 1.3em;
       padding: 20px;
       width: 50%;
+      margin-top: 0px;
     }
 
     .contact-photo {
@@ -338,14 +358,14 @@ body {
     }
   }
 
-  .art-body {
-    .work-image {
-        max-width: 100%;
-        flex: 1 1 0px;
-        display: flex;
-        justify-content: center;
-      }
-  }
+  //   .art-body {
+  //     .work-image {
+  //       max-width: 100%;
+  //       flex: 1 1 0px;
+  //       display: flex;
+  //       justify-content: center;
+  //     }
+  //   }
 
   .CV-body {
     .skills-list {
