@@ -73,6 +73,7 @@ body {
 
     &:hover {
       background: $mainColour;
+      border-radius: 2em;
       color: white;
     }
 
@@ -175,6 +176,10 @@ body {
     flex: 1 1 0px;
     display: flex;
     justify-content: center;
+  }
+
+  img {
+      max-width: 80vw;
   }
 
   .work-title {
@@ -331,6 +336,15 @@ body {
     .contact-photo {
       width: 50%;
     }
+  }
+
+  .art-body {
+    .work-image {
+        max-width: 100%;
+        flex: 1 1 0px;
+        display: flex;
+        justify-content: center;
+      }
   }
 
   .CV-body {
