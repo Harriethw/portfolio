@@ -29,8 +29,7 @@ export default {
     <div v-for="(art, index) in artData" :key="index" class="work">
       <div class="work-image">
         <carousel :perPage="1" paginationActiveColor="#eb8dd6" paginationColor="#ffb6c1">
-          <slide><img :src="require('@/assets/' + art.img)" class="art-image" /></slide>
-          <slide><img :src="require('@/assets/' + art.img)" class="art-image" /></slide>
+          <slide v-for="fileName in art.img" :key="fileName"><img :src="require('@/assets/' + fileName)" class="art-image" /></slide>
         </carousel>
       </div>
       <div class="work-text">
