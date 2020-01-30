@@ -28,7 +28,7 @@ export default {
     >I make interactive art, tools and apps that aim to delight and inspire people. If you'd like to collaborate on a project please get in touch.</div>
     <div v-for="(art, index) in artData" :key="index" class="work">
       <div class="work-image">
-        <carousel :perPage="1" paginationActiveColor="#eb8dd6" paginationColor="#ffb6c1">
+        <carousel :value=0 :perPage="1" :paginationSize=15 paginationActiveColor="#eb8dd6" paginationColor="#ffb6c1">
           <slide v-for="fileName in art.img" :key="fileName"><img :src="require('@/assets/' + fileName)" class="art-image" /></slide>
         </carousel>
       </div>
