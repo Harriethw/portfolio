@@ -25,7 +25,8 @@ export default {
     </div>
     <div
       class="art-intro"
-    >I make interactive art, tools and apps that aim to delight and inspire people. If you'd like to collaborate on a project please get in touch.</div>
+    >I make interactive art, tools and apps that aim to delight and inspire people. <br> <br>
+    If you'd like to collaborate on a project, please get in touch :)</div>
     <div v-for="(art, index) in artData" :key="index" class="work">
       <div class="work-image">
         <carousel :value=0 :perPage="1" :paginationSize=15 paginationActiveColor="#eb8dd6" paginationColor="#ffb6c1">

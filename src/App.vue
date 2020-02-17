@@ -5,17 +5,17 @@
       <div class="nav">
         <p>
           <router-link class="nav-icon" to="/CV">
-            <span>CV</span>
+            <span class="nav-text">CV</span>
           </router-link>
         </p>
         <p>
           <router-link class="nav-icon" to="/Art">
-            <span>Art</span>
+            <span class="nav-text">Art</span>
           </router-link>
         </p>
         <p>
           <router-link class="nav-icon" to="/Contact">
-            <span>Contact</span>
+            <span class="nav-text">Contact</span>
           </router-link>
         </p>
       </div>

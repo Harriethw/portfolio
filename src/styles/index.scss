@@ -62,6 +62,10 @@ body {
     text-decoration: none;
   }
 
+  .nav-text {
+    margin-top: 9px;
+  }
+
   .nav-icon {
     display: flex;
     justify-content: center;
@@ -163,6 +167,8 @@ body {
 
   .art-intro {
       text-align: center;
+      font-size: 1.5em;
+      margin-bottom: 20px;
   }
 
   .work {
@@ -200,14 +206,13 @@ body {
 
   .work-title {
     font-weight: bold;
-    text-align: left;
+    text-align: center;
     font-size: 2em;
     margin: 20px 0px 20px 0px;
     background-color: $lightPink;
     padding: 15px;
     border-radius: 2em;
     color: white;
-    // display:inline-block;
   }
 
   .medium {
