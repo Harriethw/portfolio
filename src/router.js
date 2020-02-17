@@ -11,20 +11,20 @@ const router = new Router({
     routes: [
         {
             path: '/',
-            redirect: '/Art',
+            redirect: '/art',
         },
         {
-            path: '/CV',
+            path: '/cv',
             name: 'CV',
             component: CV,
         },
         {
-            path: '/Art',
+            path: '/art',
             name: 'Art',
             component: Art,
         },
         {
-            path: '/Contact',
+            path: '/contact',
             name: 'Contact',
             component: Contact,
         },
