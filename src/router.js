@@ -3,6 +3,7 @@ import Router from 'vue-router';
 import CV from '@/components/CV.vue';
 import Art from '@/components/Art.vue';
 import Contact from '@/components/Contact.vue';
+import Zdog from '@/experiment/zDog.vue'
 
 Vue.use(Router);
 
@@ -28,6 +29,11 @@ const router = new Router({
             name: 'Contact',
             component: Contact,
         },
+        {
+            path: '/zdog',
+            name: 'Zdog',
+            component: Zdog,
+        }
     ]
 });
 
