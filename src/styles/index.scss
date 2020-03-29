@@ -97,7 +97,7 @@ body {
 
   .title {
     text-align: center;
-    margin-bottom: 50px;
+    margin-bottom: 10px;
   }
 
   a {
@@ -161,49 +161,61 @@ body {
 }
 
 .art-body {
+  display: flex;
+  flex-direction: column;
   div {
     padding-bottom: 10px;
   }
 
   .art-intro {
-      text-align: center;
-      font-size: 1.5em;
-      margin-bottom: 20px;
+    text-align: center;
+    font-size: 1.5em;
+    margin-bottom: 20px;
+    max-width: 700px;
+    align-self: center;
+    display: flex;
+    padding: 2em;
+    background: $mainColour;
+    border-radius: 2em;
+    color: white;
+    max-width: 600px;
   }
 
   .work {
-    border-bottom: 2px dashed $lightPink;
+    border: 2px dashed $lightPink;
+    border-radius: 2em;
     margin-bottom: 20px;
     display: flex;
     flex-direction: column;
-    width: 90vw;
+    width: 70vw;
+    align-self: center;
   }
 
   .work-text {
     flex: 1 1 0px;
+    max-width: 40vw;
+    align-self: center;
   }
-
-  //   .work-image {
-  //     max-width: 100%;
-  //     flex: 1 1 0px;
-  //     display: flex;
-  //     justify-content: center;
-  //   }
 
   .VueCarousel-slide {
     display: flex;
     justify-content: center;
   }
 
-  .VueCarousel-dot, .VueCarousel-dot-container {
-      margin-top: 0 !important;
+  .VueCarousel-dot,
+  .VueCarousel-dot-container {
+    margin-top: 0 !important;
   }
 
   img {
     max-width: 80vw;
     max-height: 50vh;
+    border-radius: 2em;
   }
 
+  // .work-image {
+  //   max-width: 40vw;
+  // }
   .work-title {
     font-weight: bold;
     text-align: center;
@@ -364,21 +376,19 @@ body {
     }
   }
 
-  //   .art-body {
-  //     .work-image {
-  //       max-width: 100%;
-  //       flex: 1 1 0px;
-  //       display: flex;
-  //       justify-content: center;
-  //     }
-  //   }
+  .art-body {
+    .work {
+      width: 80vw;
+    }
+  }
 
   .CV-body {
+    max-width: 700px;
     .skills-list {
       display: inline;
       border: 2px dashed $pink;
       padding: 10px;
-      height: 400pt;
+      height: 500px;
       margin-right: 5px;
     }
 
