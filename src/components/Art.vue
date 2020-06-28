@@ -20,9 +20,6 @@ export default {
 
 <template>
   <div class="art-body">
-    <div class="title">
-      <h1>A selection of my work</h1>
-    </div>
     <div class="art-intro">
       I make interactive art, tools and apps that aim to delight and inspire people.
       <br />

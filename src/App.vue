@@ -4,17 +4,17 @@
       <Header />
       <div class="nav">
         <p>
-          <router-link class="nav-icon" to="/CV">
+          <router-link class="nav-icon" to="/cv">
             <span class="nav-text">CV</span>
           </router-link>
         </p>
         <p>
-          <router-link class="nav-icon" to="/Art">
+          <router-link class="nav-icon" to="/art">
             <span class="nav-text">Art</span>
           </router-link>
         </p>
         <p>
-          <router-link class="nav-icon" to="/Contact">
+          <router-link class="nav-icon" to="/contact">
             <span class="nav-text">Contact</span>
           </router-link>
         </p>

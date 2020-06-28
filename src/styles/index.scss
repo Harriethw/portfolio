@@ -187,13 +187,13 @@ body {
     margin-bottom: 20px;
     display: flex;
     flex-direction: column;
-    width: 70vw;
+    width: 90vw;
     align-self: center;
   }
 
   .work-text {
     flex: 1 1 0px;
-    max-width: 40vw;
+    max-width: 80vw;
     align-self: center;
   }
 
@@ -379,6 +379,10 @@ body {
   .art-body {
     .work {
       width: 80vw;
+    }
+
+    .work-text {
+      max-width: 40vw;
     }
   }
 
