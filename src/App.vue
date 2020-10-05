@@ -2,23 +2,7 @@
   <div id="app">
     <div class="app-wrapper">
       <Header />
-      <div class="nav">
-        <p>
-          <router-link class="nav-icon" to="/cv">
-            <span class="nav-text">CV</span>
-          </router-link>
-        </p>
-        <p>
-          <router-link class="nav-icon" to="/art">
-            <span class="nav-text">Art</span>
-          </router-link>
-        </p>
-        <p>
-          <router-link class="nav-icon" to="/contact">
-            <span class="nav-text">Contact</span>
-          </router-link>
-        </p>
-      </div>
+      <NavBar />
       <div class="mainContent">
         <transition name="slide-fade" mode="out-in">
           <router-view />
@@ -32,12 +16,14 @@
 <script>
 import Header from "./components/Header.vue";
 import Footer from "./components/Footer.vue";
+import NavBar from "./components/NavBar.vue";
 
 export default {
   name: "app",
   components: {
     Header,
-    Footer
+    Footer,
+    NavBar
   },
   data() {
     return {

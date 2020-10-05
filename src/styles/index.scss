@@ -53,6 +53,7 @@ body {
 
 .nav {
   display: flex;
+  flex-direction: row;
   justify-content: center;
 
   a {
@@ -62,8 +63,8 @@ body {
     text-decoration: none;
   }
 
-  .nav-text {
-    margin-top: 9px;
+  ul {
+    display: flex;
   }
 
   .nav-icon {
@@ -81,12 +82,22 @@ body {
       color: white;
     }
 
+    &.desktop {
+      display: none;
+    }
+
+    &.mobile {
+      display: flex;
+    }
+  }
+
+  .nav-route {
     &.router-link-active {
-      width: 20vw;
-      background: $mainColour;
-      border-bottom: none;
-      border-radius: 2em;
-      color: white;
+      .nav-icon {
+        border-radius: 2em;
+        background: $mainColour;
+        color: white;
+      }
     }
   }
 }
@@ -330,6 +341,14 @@ body {
       font-size: 1.5em;
     }
 
+    span {
+      &:focus {
+        background: $mainColour;
+        border-radius: 2em;
+        color: white;
+      }
+    }
+
     .nav-icon {
       display: flex;
       margin: 1vw;
@@ -347,12 +366,24 @@ body {
         color: white;
       }
 
+      &.mobile {
+        display: none;
+      }
+
+      &.desktop {
+        display: flex;
+      }
+    }
+
+    .nav-route {
       &.router-link-active {
-        width: 20vw;
-        border-color: $mainColour;
-        border-style: solid;
-        background: $mainColour;
-        color: white;
+        .nav-icon {
+          width: 20vw;
+          border-color: $mainColour;
+          border-style: solid;
+          background: $mainColour;
+          color: white;
+        }
       }
     }
   }
