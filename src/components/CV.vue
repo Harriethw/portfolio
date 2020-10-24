@@ -15,7 +15,7 @@
       <div v-if="skillsShow" class="skills-list">
           <div class="skills-title">Skills</div>
           <ul>
-            <li>C#, Java</li>
+            <li>Ruby, Java</li>
             <li>Vue, React</li>
             <li>Firebase</li>
             <li>SQL</li>

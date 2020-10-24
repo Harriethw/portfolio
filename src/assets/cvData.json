@@ -1,10 +1,17 @@
 [
     {
+        "company": "FutureLearn",
+        "role": "Software Engineer",
+        "location": "London, UK",
+        "date": "September 2020 - present",
+        "description": "I believe in the power of accessible education, and I'm pleased to be putting my skills to good use at this online learning platform. I'm working to launch a new product and improve legacy code, on a Rails and React stack."
+    },
+    {
         "company": "ThoughtWorks",
         "role": "Software Developer",
         "location": "London, UK",
-        "date": "June 2019 - present",
-        "description": "At this reknowned software consultancy I'm honing my craft, applying my commitment to quality and best practise to TDD, pair programming and CI/CD. I've worked on a range of full-stack technologies, including Java, Spring, Firebase and Vue."
+        "date": "June 2019 - August 2020",
+        "description": "At this reknowned software consultancy I continued to hone my craft, applying my commitment to quality and best practise to TDD, pair programming and CI/CD. I worked on a range of full-stack technologies, including React, Java, Spring, Firebase and Vue."
     },
     {
         "company": "American Express",
