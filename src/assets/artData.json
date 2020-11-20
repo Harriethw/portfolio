@@ -3,8 +3,9 @@
     "medium": "Oculus Go VR",
     "date": "September 2019",
     "shortDescription": "Sometimes it’s really difficult to get out of bed in the morning… <i>Escape Bed</i> is part point-and-click adventure, part child-like exploration of the liminal space between dreaming and awake. Explore, prod and poke this colourful little vignette until you are ready to throw back the duvet and begin your day.",
-    "extraDescription": "Made in Unity for the Oculus Go, this is my second solo VR piece. I learnt a great deal about 3D modelling and crafting an experience without relying (too much) on words to tell a story.",
-    "img": ["escapeBed.png", "escapeBed_2.png", "escapeBed_3.png"]
+    "extraDescription": "Exhibited at Open City Docs September 2019. Made in Unity for the Oculus Go, this is my second solo VR piece. I learnt a great deal about 3D modelling and crafting an experience without relying (too much) on words to tell a story.",
+    "img": ["escapeBed.png", "escapeBed_2.png", "escapeBed_3.png"],
+    "alt-text": "Screenshots of a low poly colourful room, with cartoon clouds and monsters"
 },
 {
     "work-title": "Day Off",
@@ -13,6 +14,7 @@
     "shortDescription": "An interactive picture book about taking the day off",
     "extraDescription": "Made in Unity.",
     "img": ["dayOff.png", "dayOff_2.png", "dayOff_3.png", "dayOff_4.png"],
+    "alt-text": "Screenshots of flowers and illustrations about taking the day off work",
     "link": "https://harriethw.itch.io/day-off"
 },
 {
@@ -22,6 +24,7 @@
     "shortDescription": "A tool for generating Princesses and their back stories. Anyone can be a Princess. ",
     "extraDescription": "Made in Unity.",
     "img": ["princess.png", "princess_2.png", "princess_3.png"],
+    "alt-text": "Screenshots of a pixellated character next to a paragraph of generated fantasy-style text",
     "link": "https://harriethw.itch.io/random-princess"
 },
 {
@@ -31,6 +34,7 @@
     "shortDescription": "A post-apocalyptic virtual reality essay on the colour blue, and its significance on the planet Earth. ",
     "extraDescription": "Perfect Blue is my first solo VR piece and was produced as part of Dames Making Games’ summer intensive VR course (SPF90FPS), exhibited at the Toronto Media Arts Centre in September 2017.",
     "img": ["perfectBlue.png", "perfectBlue_2.png", "perfectBlue_3.png"],
+    "alt-text": "Screenshots of a nineties aesthetic VR scene with blue walls and objects floating in space",
     "link": "https://harriethw.itch.io/random-princess"
 },
 {
@@ -40,5 +44,6 @@
     "shortDescription": "The average person looks at their phone 2,617 times a day - so why not make one of those times contain something that is actually helpful, or sincere or funny? ",
     "extraDescription": "Send yourself words of encouragement, compliments or reminders and they will appear at random times on your device. An idea to disrupt the anxiety spiral of phone notifications and break addictive, negative loops.",
     "img": ["sparkles.png", "sparkles_2.png", "sparkles_3.png"],
+    "alt-text": "Screenshots of a mobile app with a form to write cute notes",
     "link": "https://harriethw.itch.io/sparkles"
 }]

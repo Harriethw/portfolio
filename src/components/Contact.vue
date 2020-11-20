@@ -10,9 +10,9 @@ export default {
       <h1>Drop me a line</h1>
     </div>
   <div class="contact-body">
-    
+
     <div class="contact-photo-wrapper">
-      <img class="contact-photo" src="@/assets/portrait.png" alt="portrait" />
+      <img class="contact-photo" src="@/assets/portrait.png" alt="Illustration of a person with short black hair and round glasses, wearing a pride badge" />
     </div>
     <div class="contact-info">
       <a href="mailto:harriethw@gmail.com"><span class="contact-link">HarrietHW@gmail.com</span></a>

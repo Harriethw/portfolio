@@ -17,6 +17,9 @@
     "img": {
         "class": "art-image"
     },
+    "alt-text": {
+        "class": "alt-text"
+    },
     "work-link": {
         "class": "work-link"
     }

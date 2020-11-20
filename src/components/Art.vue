@@ -45,7 +45,7 @@ export default {
           paginationColor="#ffb6c1"
         >
           <slide v-for="fileName in art.img" :key="fileName">
-            <img :src="require('@/assets/' + fileName)" class="art-image" />
+            <img :src="require('@/assets/' + fileName)" class="art-image" :alt="art['alt-text']"/>
           </slide>
         </carousel>
       </div>
