@@ -1,10 +1,17 @@
 [
     {
+        "company": "Made Tech",
+        "role": "Senior Software Engineer",
+        "location": "Bristol, UK",
+        "date": "February 2022 - present",
+        "description": "Building civic tech and services for the public - currently working on a Django/Express/React stack and providing infra/DevOps support"
+    },
+    {
         "company": "FutureLearn",
         "role": "Software Engineer",
         "location": "London, UK",
-        "date": "September 2020 - present",
-        "description": "I believe in the power of accessible education, and I'm pleased to be putting my skills to good use at this online learning platform. I'm working to launch a new product and improve legacy code, on a Rails and React stack."
+        "date": "September 2020 - February 2022",
+        "description": "I believe in the power of accessible education, and I was pleased to put my skills to good use at this online learning platform. I worked on a mobile (React Native/GraphQL/Rails) R'n'D team, as well as to improve legacy code, on a Rails and React stack."
     },
     {
         "company": "ThoughtWorks",
